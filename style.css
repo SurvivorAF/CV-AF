@@ -7,38 +7,17 @@ body{
 	display: flex;
 	flex: wrap;
 }
-.left{
-	width: 30%;
-	background-color: Bisque;
-	position: relative;
-}
-.right{
-	width: 70%;
-	padding: 50px 5% 20px 5%;
-	text-align: left;
-}
-/* mon nom et le titre*/
-header
-{
-	color: black;
-	margin: 0 0 50px 0;
-
-}
-em{
-	color: burlyWood; 
-	font-size: 40px; 
-}
-.surline-header{
-	border-bottom: 2px solid burlywood;
-	margin-top: -10px; 
-	width: 50px;
-}
-.
 /*partie gauche*/
 .photo{
 	margin:40px 0 20px 0;
 	text-align: center;
 }
+.left{
+	width: 30%;
+	background-color: Bisque;
+	position: relative;
+}
+
 .avatar{
 	width: 150px;
 	height: 150px;
@@ -74,6 +53,11 @@ em{
 	border-bottom: 2px solid burlywood; 
 	margin-top: -10px; 
 }
+.right{
+	width: 70%;
+	padding: 50px 5% 20px 5%;
+	text-align: left;
+}
 .row{
 	display: flex;
 }
@@ -86,6 +70,21 @@ em{
 
 i{
 	color: burlywood;
+}
+header
+{
+	color: black;
+	margin: 0 0 50px 0;
+
+}
+em{
+	color: burlyWood; 
+	font-size: 40px; 
+}
+.surline-header{
+	border-bottom: 2px solid burlywood;
+	margin-top: -10px; 
+	width: 50px;
 }
 
 /*footer*/
@@ -133,7 +132,10 @@ i{
 .photo{
 	text-align: center;
 }
-
+.right{
+	text-align: justify;
+	margin: 5%;
+}
 }
 
 
