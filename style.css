@@ -28,7 +28,7 @@ body{
 	display: none;
 }
 .left p{
-	margin: 0 20px 0 20px;
+	margin: 0 20px 10px 20px;
 	text-align: justify;
 }
 .title_left{
@@ -48,6 +48,7 @@ body{
 	width: 100%;
 
 }
+
 /* partie droite */
 .surline{
 	border-bottom: 2px solid burlywood; 
@@ -67,6 +68,9 @@ body{
 .col7{
 	width: 70%;
 }
+.col7 p{
+	text-align: justify;
+}
 
 i{
 	color: burlywood;
@@ -85,6 +89,9 @@ header
 	border-bottom: 2px solid burlywood;
 	margin-top: -10px; 
 	width: 50px;
+}
+.icone_right{
+	margin-right: 8px;
 }
 
 /*footer*/
@@ -107,8 +114,9 @@ header
 .row{
 	display: inherit;
 }
-.col3 .col7{
+.col3, .col7{
 	width: 100%;
+	text-align: justify;
 }
 }
 /*format smarphone*/
@@ -117,10 +125,18 @@ header
 	.container{
 		flex-direction: column;
 	}
+	.work, .contact p, .photo, .right h2{
+		text-align: center!important;
+	}
+	.right i{
+		display: none;
+	}
+
+
 	.left, .right{
 		width: 100%;
 		padding: 50px 0% 20px 0%;
-		text-align: center;
+	
 	}
 	.col3 .col7
 	{
@@ -134,9 +150,6 @@ header
 	}
 	.title-lg{
 		display: none;
-	}
-	.photo{
-		text-align: center;
 	}
 	.right section, .right header, .right footer{
 		margin: 0 5% 0 5%; 

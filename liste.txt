@@ -1,9 +1,0 @@
-total 72
-drwxr-xr-x@  8 afournier  staff    256 29 mai 17:39 .
-drwx------@  8 afournier  staff    256 29 mai 17:14 ..
--rw-r--r--@  1 afournier  staff   6148 29 mai 17:10 .DS_Store
-drwxr-xr-x@ 13 afournier  staff    416 29 mai 17:14 .git
--rw-r--r--@  1 afournier  staff   8068 29 mai 17:06 index.html
--rw-r--r--@  1 afournier  staff  14269  6 mai 16:01 karma.jpeg
--rw-r--r--   1 afournier  staff      0 29 mai 17:39 liste.txt
--rw-r--r--@  1 afournier  staff   1751 29 mai 17:06 style.css
